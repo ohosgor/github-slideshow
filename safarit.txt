@@ -1,0 +1,10 @@
+DesiredCapabilities caps = new DesiredCapabilities();
+caps.setCapability("os", "OS X");
+caps.setCapability("os_version", "Mojave");
+caps.setCapability("browser", "Safari");
+caps.setCapability("browser_version", "12.0");
+caps.setCapability("resolution", "1600x1200");
+caps.setCapability("browserstack.local", "false");
+caps.setCapability("browserstack.selenium_version", "3.12.0");
+caps.setCapability("browserstack.safari.enablePopups", "true");
+caps.setCapability("browserstack.safari.allowAllCookies", "true");
