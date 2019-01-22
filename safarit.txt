@@ -8,3 +8,6 @@ caps.setCapability("browserstack.local", "false");
 caps.setCapability("browserstack.selenium_version", "3.12.0");
 caps.setCapability("browserstack.safari.enablePopups", "true");
 caps.setCapability("browserstack.safari.allowAllCookies", "true");
+
+
+https://www.browserstack.com/automate/capabilities
