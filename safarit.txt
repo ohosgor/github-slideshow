@@ -11,3 +11,8 @@ caps.setCapability("browserstack.safari.allowAllCookies", "true");
 
 
 https://www.browserstack.com/automate/capabilities
+
+
+
+driver = webdriver.Safari(port=0, executable_path="/Applications/Safari Technology Preview.app/Contents/MacOS/safaridriver")
+https://github.com/SeleniumHQ/selenium/issues/3506
